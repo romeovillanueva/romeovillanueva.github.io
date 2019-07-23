@@ -1,0 +1,109 @@
+<!-- cheat-sheet.html -->
+<!-- HTML Shell: html,head, body -->
+<!DOCTYPE html> <!-- DOCTYPE is to let the browser know that we are using html-->
+<html> <!-- start of html document -->
+<head> <!-- start of head section: configuration -->
+	<title>Cheat Sheet</title> <!-- title on the browser's tab: goes inside head section -->
+	<link rel="stylesheet" type="text/css" href="cheat-sheet.css"> <!-- link brings all css styling from my css file into this html file, href attribute has the name and path of the css file-->
+	<!-- style tag is to add internal styles-->
+	<style type="text/css">
+		/* margin properties in pixels */
+	div {margin-top:100px;
+margin-right: 150px;
+margin-bottom: 50px;
+margin-left: 200px;
+background: rgb(4,57,222);
+border-style: dashed;
+border-radius: 10px; /* border-radius is to add curve corners to the div*/}
+</style>
+</head> <!-- ending of head section -->
+<body> <!-- start of body section: visible section of the page -->
+<h1 class="heading"> Heading 1</h1>
+<!-- h1 tag is using a class style (see css file) -->
+<h2 class="heading"> Heading 2</h2>
+<h3 class="heading"> Heading 3</h3>
+<h4 class="heading"> Heading 4</h4>
+<h5 class="heading"> Heading 5</h5>
+<h6 class="heading"> Heading 6</h6>
+<!-- paragraphs -->
+<p id="my_paragraph"> This is a paragraph. I want to add a lot of words because I want this to look like a very long paragraph. I'm starting a new one so it has mulitple sentences. Look heres another sentence. Also look this is another sentence.  </p>
+<p>This is a paragraph. I want to add a lot of words because I want this to look like a very long paragraph. I'm starting a new one so it has mulitple sentences. Look heres another sentence. Also look this is another sentence.  </p>
+<!-- img for images: src attribute to point to the image, alt is the text to be displayed instead of the image, height to adjust the height of the image. -->
+<img src="https://i.imgur.com/5mXfwr1.jpg" alt="Picture of Fish" height="300" width="500">
+<!-- Unordered list,type bullet -->
+<ul type="disc">
+	<li>My candy</li> <!-- li: list element -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<!-- Unordered list,type square -->
+<ul type="square">
+	<li>My candy</li> <!-- li: list element -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<!-- Unordered list,type circle -->
+<ul type="circle">
+	<li>My candy</li> <!-- li: list element -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<!-- Ordered list,type 1 -->
+<ol type="1">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!-- Ordered list,type A -->
+<ol type="A">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!-- Ordered list,type a -->
+<ol type="a">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!-- Ordered list,type i -->
+<ol type="i">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+ <ol type="A">
+	 <li>HTML</li>
+	 <li>CSS</li>
+	 <li>JS</li>
+ </ol>
+</li>
+<li>Math</li>
+</ol>
+<!-- a is for anchor (hyperlink)-->
+<a href="https://www.youtube.com">Youtube</a> <!--absolute hyperlink-->
+<br> <!-- line break -->
+<a href="cheat-sheet.html">My cheat sheet</a> <!--relative hyperlink-->
+
+<!-- div is to indicate an area within the web page -->
+<div>
+	<p>Another Paragraph</p>
+	 <ol type="A">
+	 <li>HTML</li>
+	 <li>CSS</li>
+	 <li>JS</li>
+ </ol>
+</li>
+<li>Math</li>
+</ol>
+</div>
+
+</body> <!-- ending of body section -->
+</html> <!-- end of html document -->

@@ -1,0 +1,25 @@
+body {background-color: lightgreen; }
+
+#stoplight {width: 20%;
+	border: 5px solid black; 
+	margin: auto;
+	background-color: lightgrey;
+}
+
+.circle { width: 75px;
+	height: 75px;
+	border: solid 2px black;
+	margin: 20px auto;
+	border-radius: 50px;
+}
+ 
+#red {background-color: red;}
+
+#yellow {background-color: yellow;}
+
+#green {background-color: green;}
+
+h1 {text-align: center;}
+
+#post { width:5%; height: 100px; margin:auto; background-color: black;
+ }
